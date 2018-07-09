@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Principal.master.cs" Inherits="Principal" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Recreation by TEMPLATED</title>
+<link href="http://fonts.googleapis.com/css?family=Arvo|Open+Sans:400,300,700" rel="stylesheet" type="text/css" />
+<link href="/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    <div id="menu-wrapper">
+        <div id="menu">
+            <ul>
+                <li class="current_page_item"><a href="Index.aspx">INICIO</a></li>
+                <li><a href="AsignarMedico.aspx">Clinicas</a></li>
+                <li><a href="AsignarMedicamentoC.aspx">Medicamentos</a></li>
+                <li><a href="AsignarUtensiliosC.aspx">Utensilios</a></li>
+                <li><a href="CrearPerfilMedico.aspx">Médicos</a></li>
+                <li><a href="#">Grupo 7</a></li>
+            </ul>
+        </div>
+	<!-- end #menu -->
+    </div>
+    <div id="header-wrapper">
+        <div id="header">
+            <div id="logo">
+                <h1>CLINICAS <a href="#"><span>VIDA SANA</span></a></h1>
+                <p>
+                    <a href="Login.aspx" rel="nofollow">Iniciar Sesión</a></p>
+            </div>
+        </div>
+    </div>
+    <div id="banner">
+        <a href="#" class="img-style">
+        <img src="/images/img04.jpg" width="1000" height="350" alt="" /></a></div>
+    <div id="wrapper">
+	<!-- end #header -->
+	    <div id="page">
+            <div id="page-bgtop">
+                <div id="page-bgbtm">
+                    <div id="content">
+                        <div class="post">
+                            <h2 class="title"><a href="#">Bienvenidos </a></h2>
+                            <p class="meta">
+                                <span class="date"><strong>Sistema de Clinicas Filiales Vida Sana</strong></span></p>
+                            <div style="clear: both;">
+                                &nbsp;</div>
+                            <div class="entry">
+                                <p>
+                                    Somos una filial con clinicas ubicadas en diferentes lugares estratégicos de El Salvador.</p>
+                                <p>
+                                    Nuestras clinicas ,medicos, enfermeras y demás personal están totalmente capacitados para brindar el mejor servicio a nuestros clientes, en la especialidad que lo necesiten</p>
+                                
+                            </div>
+                        </div>
+                        <div style="clear: both;">
+                            &nbsp;</div>
+                    </div>
+				<!-- end #content -->
+				    <div id="sidebar">
+                        <ul>
+                            <li>
+                                <h2>Menu</h2>
+                                <ul>
+                                    <li><a href="AsignarMedico.aspx">Clinicas</a></li>
+                                    <li><a href="AsignarMedicamentoC.aspx">Medicamentos</a></li>
+                                    <li><a href="AsignarUtensiliosC.aspx">Utensilios</a></li>
+                                    <li><a href="CrearPerfilMedico.aspx">Personal</a></li>
+                                    <li><a href="Grupo.aspx">Grupo 7</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+				<!-- end #sidebar -->
+				    <div style="clear: both;">
+                        &nbsp;</div>
+                </div>
+            </div>
+        </div>
+	<!-- end #page -->
+    </div>
+    <div id="footer">
+        <p>
+            Programación II   |   <a href="#">&copy; Grupo 7</a> | <a href="#" rel="nofollow">2017</a></p>
+    </div>
+<!-- end #footer -->
+</asp:ContentPlaceHolder>
+</body>
+</html>
